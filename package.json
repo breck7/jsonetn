@@ -1,0 +1,24 @@
+{
+  "name": "jsonetn",
+  "version": "1.0.0",
+  "description": "JsonETN demonstration.",
+  "main": "./jsonETN.js",
+  "scripts": {
+    "cover": "istanbul cover test.js; open coverage/lcov-report/index.html",
+    "test": "node test.js",
+    "testWeb": "open test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/breck7/jsonetn"
+  },
+  "keywords": "etn",
+  "devDependencies": {
+    "express": "*",
+    "treenotation": "^3.8.0",
+    "jquery": "*",
+    "qunitjs": "*",
+    "tape": "^4.6.3"
+  },
+  "license": "MIT"
+}
